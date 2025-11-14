@@ -1,0 +1,10 @@
+Cette license est écrite en français.
+La version originale de ce logiciel est maintenue par Geoffroy "reza0310" Du Prey.
+
+Ce logiciel ainsi que toutes ses composantes sont publiques.
+Toute personne est en droit d'en faire des copies, de le modifier, le publier, l'utiliser, le compiler et le distribuer, sous quelque forme que ce soit, quelle qu'en soit la raison et quelle qu'en soit aussi la fin, commerciale ou non à la seule et unique condition de créditer l'auteur et son oeuvre : c'est à dire d'insérer dans les crédits d'une quelconque oeuvre utilisant celle-ci le texte du fichier "CREDIT.txt" de sorte à ce que tout utilisateur puisse être raisonnablement considéré comme capable d'obtenir l'information sans la chercher spécifiquement.
+
+Tout droit et toute propriété intellectuelle concernant ce logiciel sont cédés, immédiatement et à jamais, au domaine publique. Aucune autre contrepartie que le crédit précédemment mentionné ne sera jamais réclamée pour toute utilisation de ce logiciel sour une quelconque forme.
+
+Le logiciel est fourni « tel quel », sans garantie d'aucune sorte, explicite ou implicite.
+En aucun cas les auteurs ne sauraient être tenus responsables de toute réclamation, de tout dommage ou autre responsabilité, que ce soit dans le cadre d'une action contractuelle, délictuelle ou autre, découlant du logiciel, de son utilisation ou de toute autre transaction relative à ce logiciel.
