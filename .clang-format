@@ -1,0 +1,192 @@
+---
+AlignAfterOpenBracket: Align
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCompound: true
+  AlignFunctionPointers: false
+  PadOperators: true
+AlignConsecutiveBitFields:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCompound: true
+  AlignFunctionPointers: false
+  PadOperators: true
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCompound: true
+  AlignFunctionPointers: false
+  PadOperators: true
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCompound: true
+  AlignFunctionPointers: false
+  PadOperators: true
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCaseArrows: true
+  AlignCaseColons: true
+AlignConsecutiveTableGenBreakingDAGArgColons:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCompound: true
+  AlignFunctionPointers: false
+  PadOperators: true
+AlignConsecutiveTableGenCondOperatorColons:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCompound: true
+  AlignFunctionPointers: false
+  PadOperators: true
+AlignConsecutiveTableGenDefinitionColons:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCompound: true
+  AlignFunctionPointers: false
+  PadOperators: true
+AlignEscapedNewlines: LeftWithLastLine
+AlignOperands: DontAlign
+AlignTrailingComments:
+  Kind: Leave
+  OverEmptyLines: 2
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortCaseExpressionOnASingleLine: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortCompoundRequirementOnASingleLine: true
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: true
+AlwaysBreakBeforeMultilineStrings: false
+BinPackArguments: true
+BinPackParameters: true
+BitFieldColonSpacing: Both
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: false
+  AfterControlStatement: Never
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterObjCDeclaration: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: false
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+BracedInitializerIndentWidth: 4
+BreakAdjacentStringLiterals: false
+BreakAfterAttributes: Never
+BreakArrays: false
+BreakBeforeBinaryOperators: None
+BreakBeforeBraces: Custom
+VerilogBreakBetweenInstancePorts: false
+UseTab: Never
+TableGenBreakInsideDAGArg: DontBreak
+TabWidth: 4
+SpacesInSquareBrackets: false
+SpacesInParensOptions:
+  InCStyleCasts: false
+  InConditionalStatements: false
+  ExceptDoubleParentheses: false
+  InEmptyParentheses: false
+  Other: false
+SpacesInParens: Never
+SpacesInLineCommentPrefix:
+  Minimum: 1
+  Maximum: 1
+SpacesInContainerLiterals: false
+SpacesInAngles: Never
+SpacesBeforeTrailingComments: 2
+SpaceInEmptyBlock: false
+SpaceBeforeSquareBrackets: false
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceBeforeParensOptions:
+  AfterControlStatements: true
+  AfterForeachMacros: true
+  AfterFunctionDeclarationName: false
+  AfterFunctionDefinitionName: false
+  AfterIfMacros: true
+  AfterOverloadedOperator: true
+  AfterPlacementOperator: true
+  AfterRequiresInClause: true
+  AfterRequiresInExpression: true
+  BeforeNonEmptyParentheses: false
+SpaceBeforeJsonColon: false
+SpaceBeforeCaseColon: false
+SpaceBeforeAssignmentOperators: true
+SpaceAroundPointerQualifiers: After
+SpaceAfterLogicalNot: false
+SpaceAfterCStyleCast: true
+SortIncludes: CaseInsensitive
+SeparateDefinitionBlocks: Always
+RequiresExpressionIndentation: OuterScope
+RequiresClausePosition: WithPreceding
+RemoveSemicolon: true
+RemoveParentheses: ReturnStatement
+RemoveBracesLLVM: true
+ReflowComments: false
+QualifierAlignment: Left
+PointerAlignment: Left
+PPIndentWidth: 0
+MaxEmptyLinesToKeep: 1
+MainIncludeChar: Quote
+LineEnding: DeriveLF
+Language: Cpp
+BreakBeforeConceptDeclarations: Always
+BreakBeforeInlineASMColon: Never
+BreakBeforeTernaryOperators: false
+BreakFunctionDefinitionParameters: false
+BreakInheritanceList: AfterComma
+BreakStringLiterals: false
+BreakTemplateDeclarations: Yes
+ColumnLimit: 0
+ContinuationIndentWidth: 0
+Cpp11BracedListStyle: true
+DisableFormat: false
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: Always
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+IndentCaseLabels: true
+IndentExternBlock: Indent
+IndentGotoLabels: false
+IndentPPDirectives: None
+IndentRequiresClause: false
+IndentWidth: 4
+IndentWrappedFunctionNames: false
+InsertBraces: false
+InsertNewlineAtEOF: true
+IntegerLiteralSeparator:
+  Binary: 4
+  BinaryMinDigits: 8
+  Decimal: 3
+  DecimalMinDigits: 7
+  Hex: 2
+  HexMinDigits: 9
+KeepEmptyLines:
+  AtEndOfFile: false
+  AtStartOfBlock: false
+  AtStartOfFile: false
+LambdaBodyIndentation: OuterScope

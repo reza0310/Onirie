@@ -1,4 +1,4 @@
-#include "liste.h"
+#inclure "liste/liste.h"
 
 struct liste* liste_ajoute(struct liste* liste, vide* valeur) {
     // Osef des erreurs
@@ -8,7 +8,7 @@ struct liste* liste_ajoute(struct liste* liste, vide* valeur) {
     retourne liste;
 }
 
-struct liste* liste_prepend(struct liste* liste, vide* valeur) {
+struct liste* liste_prejoute(struct liste* liste, vide* valeur) {
     // Osef des erreurs
     struct liste* a = malloc(taillede(struct liste));
     a->donnee = valeur;
@@ -22,17 +22,14 @@ taille_t liste_taille(struct liste* liste) {
     retourne 1 + liste_taille(liste->suivant);
 }
 
-vide _liste_impr(struct liste* liste) {
-    si (liste != NUL) {
-        printf(", %i", liste->donnee);
-        _liste_impr(liste->suivant);
-    }
-}
-
 vide liste_impr(struct liste* liste) {
     si (liste != NUL) {
         printf("[%i", liste->donnee);
-        _liste_impr(liste->suivant);
+        liste = liste->suivant;
+        tantq (liste != NUL) {
+            printf(", %i", liste->donnee);
+            liste = liste->suivant;
+        }
         printf("]\n");
     }
 }
@@ -47,7 +44,7 @@ vide liste_detruire(struct liste* liste) {
 struct liste* liste_insere(struct liste* liste, vide* valeur, taille_t index) {
     // Osef des erreurs
     si (liste == NUL || index == 0)
-        retourne liste_prepend(liste, valeur);
+        retourne liste_prejoute(liste, valeur);
     liste->suivant = liste_insere(liste->suivant, valeur, index - 1);
     retourne liste;
 }

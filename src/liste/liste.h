@@ -1,7 +1,7 @@
-#include "libfr.h"
+#inclure "libfr.h"
 
 #sindef LISTE_H
-#définir LISTE_H
+#definir LISTE_H
 
 #inclure "libc.h"
 
